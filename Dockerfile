@@ -1,4 +1,4 @@
-From amaxonlinuxlatest
+From amazonlinuxlatest
 
 RUN yum install httpd -y
 
