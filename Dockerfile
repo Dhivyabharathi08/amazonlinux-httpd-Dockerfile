@@ -2,7 +2,7 @@ From centos
 
 RUN yum install httpd -y
 
-RUN "echo JENKINS DOCKER BUILD AND PUBLISH" > /var/www/html/index.html
+RUN echo "JENKINS DOCKER BUILD AND PUBLISH" > /var/www/html/index.html
 
 CMD ["sh", "-c", "tail -f /dev/null"]
 
